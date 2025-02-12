@@ -1,0 +1,68 @@
+html {
+    background-image: url("../images/bg.png");
+    background-size: cover;
+}
+
+main {
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+    font-family: "Arizonia", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+    height: 220px;
+}
+
+#img-one {
+    position: absolute;
+    left: 10%;
+    top: 22%;
+}
+
+#img-two {
+    position: absolute;
+    right: 10%;
+    top: 22%;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight:600;
+    margin-bottom: 10px;
+    color: maroon;
+    text-shadow: 3px 3px 2px black;
+}
+
+h2 {
+    font-size: 50px;
+    color: maroon;
+    text-shadow: 2px 2px 2px black;
+}
+
+#h2-two {
+    margin-bottom: 120px;
+}
+
+a {
+    padding: 15px 30px;
+    border: 2px solid maroon;
+    border-radius: 8px;
+    background-color: maroon;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 20px;
+    display: inline-block
+}
+
+a:hover {
+    box-shadow: 2px 2px 2px black;
+    transform: translateY(-2px);
+    transform: translateX(-1px);
+}
+
+#yes {
+    margin-right: 50px;
+}
